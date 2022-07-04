@@ -106,3 +106,14 @@ a:hover{
     color: var(--colour-bg);
     border: transparent;
 }
+
+.btn-primary{
+    background: var(--colour-primary);
+    color: var(--colour-bg);
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
