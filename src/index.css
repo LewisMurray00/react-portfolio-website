@@ -40,5 +40,13 @@ body{
     background: var(--colour-bg);
     color: var(--colour-white);
     line-height: 1.7;
-    
+    background-image: url(../src/Assests/bg-texture.png);
+}
+
+/* General styles */
+
+/* General styles for the container */
+.container{
+    width: var(--container-width-lg);
+    margin: 0 auto;
 }
