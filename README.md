@@ -9,3 +9,4 @@
 
 - Next, i decided and with the help of a tutorial i felt that using CSS variables would be a good feature to impliment, having not really used them before and knowing i wanted to repeat a lot of CSS values to keep it consistent throughout, it would save time in the long run
 
+video:47:11
