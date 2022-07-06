@@ -26,6 +26,16 @@ header{
     border-radius: 50%;
 }
 
+/* Styling for scroll down */
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-size: 300;
+    font-size: 0.9rem;
+}
+
 /* Styling for HeaderButtons.jsx */
 
 .header__buttons{
