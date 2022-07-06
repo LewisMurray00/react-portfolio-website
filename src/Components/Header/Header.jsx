@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import HeaderButtons from './HeaderButtons'
 import Myself from '../../Assests/Myself.jpeg'
+import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
@@ -11,6 +12,7 @@ const Header = () => {
         <h1>Lewis Murray</h1>
         <h5 className='text-light'>Front End Developer</h5>
         <HeaderButtons />
+        <HeaderSocials />
 
         <div className='header__image__container'>
           <img src={Myself} alt='Myself'/>
