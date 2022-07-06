@@ -1,7 +1,7 @@
 /* Styling for Header.jsx */
 
 header{
-    height: 100vh;
+    height: 135vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -12,6 +12,20 @@ header{
     position: relative;
 }
 
+/* Styling for images */
+
+.header__image__container{
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 3rem;
+}
+
+.header__image{
+    border-radius: 50%;
+}
+
 /* Styling for HeaderButtons.jsx */
 
 .header__buttons{
@@ -19,4 +33,22 @@ header{
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+}
+
+/* Styling for HeaderSocials.jsx */
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--colour-primary);
 }
