@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import HeaderButtons from './HeaderButtons'
+import Myself from '../../Assests/Myself.jpeg'
 
 const Header = () => {
   return (
@@ -12,8 +13,10 @@ const Header = () => {
         <HeaderButtons />
 
         <div className='header__image__container'>
-          <img src='' alt='Myself'/>
+          <img src={Myself} alt='Myself'/>
         </div>
+
+        <a href='#contact' className='scroll__down'>Scroll Down</a>
       </div>
     </header>
   )
