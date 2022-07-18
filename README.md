@@ -15,4 +15,7 @@
 
 - From here i began creating and coding the header section, which involed creating two more seperate components within that file, for buttons and social tabs.
 
-video: 1:04
+- After the header section, i moved onto the Navbar. where i created a fixed 'floating' Navbar that exists in the centre of the screen and scrolls down as the user does. It uses UseState hook to change the active class allowing some css used for the class that has been selected 
+
+
+video: 1:21
