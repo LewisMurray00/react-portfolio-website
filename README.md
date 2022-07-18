@@ -15,4 +15,4 @@
 
 - From here i began creating and coding the header section, which involed creating two more seperate components within that file, for buttons and social tabs.
 
-video:47:11
+video: 1:04
