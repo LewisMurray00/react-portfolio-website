@@ -40,8 +40,8 @@ const About = () => {
               <h5>Projects</h5>
               <small>In Progress</small>
             </article>
-
-            <p>
+          </div>
+          <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Nunc eu risus in libero molestie ornare et vel massa. 
               Morbi non lacus et nibh vehicula iaculis. 
@@ -49,10 +49,8 @@ const About = () => {
             </p>
 
             <a href='#contact' className='btn btn-primary'>Let's Talk</a>
-
-          </div>
+        
         </div>
-
       </div>
     </section>
   )
