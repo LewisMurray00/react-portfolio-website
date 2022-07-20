@@ -23,3 +23,25 @@
 .about__me__img:hover{
     transform: rotate(0deg);
 }
+
+/* Potential seperate component */
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.about__card{
+    background: var(--colour-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about__card:hover{
+    background: transparent;
+    border-color: var(--colour-primary);
+    cursor: default;
+}
