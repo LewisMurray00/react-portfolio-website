@@ -17,5 +17,6 @@
 
 - After the header section, i moved onto the Navbar. where i created a fixed 'floating' Navbar that exists in the centre of the screen and scrolls down as the user does. It uses UseState hook to change the active class allowing some css used for the class that has been selected 
 
+- Next i turned my focus to the About section, it was here that i created cards (which i may refactor as a seperate component) to highlight some key things about me as well as a paragraph and also reusing a button to contact me
 
-video: 1:21
+video: 1:38
