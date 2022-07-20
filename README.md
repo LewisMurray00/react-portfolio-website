@@ -20,3 +20,8 @@
 - Next i turned my focus to the About section, it was here that i created cards (which i may refactor as a seperate component) to highlight some key things about me as well as a paragraph and also reusing a button to contact me
 
 video: 1:38
+
+## Plans for the future
+
+- Refactor cards as an individual component in the About.jsx
+- Refactor CSS names in experience rather than using children to find
