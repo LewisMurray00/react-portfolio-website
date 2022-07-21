@@ -1,7 +1,7 @@
 /* Styling for Header.jsx */
 
 header{
-    height: 135vh;
+    height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -69,18 +69,25 @@ header{
 
 @media screen and (max-width: 1024px){
     header{
-        height: 68vh;
+        height: 48vh;
+    }
+
+    .header__image__container,
+    .header__socials,
+    .scroll__down{
+        display: none;
     }
 }
 
 /* Small Devices */
 @media screen and (max-width: 600px){
     header{
-        height: 150vh;
+        height: 38vh;
     }
 
     .header__socials,
-    .scroll__down{
+    .scroll__down,
+    .header__image__container{
         display: none;
     }
 }

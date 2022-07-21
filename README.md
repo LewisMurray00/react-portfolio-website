@@ -19,7 +19,7 @@
 
 - Next i turned my focus to the About section, it was here that i created cards (which i may refactor as a seperate component) to highlight some key things about me as well as a paragraph and also reusing a button to contact me
 
-video: 1:38
+video: 2:04
 
 ## Plans for the future
 

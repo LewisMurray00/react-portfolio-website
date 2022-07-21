@@ -3,7 +3,6 @@ import Header from './Components/Header/Header'
 import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/About'
 import Experience from './Components/Experience/Experience'
-import Services from './Components/Services/Services'
 import Portfolio from './Components/Portfolio/Portfolio'
 import Testimonial from './Components/Testimonial/Testimonial'
 import Contact from './Components/Contact/Contact'
@@ -17,7 +16,6 @@ const App = () => {
         <Navbar />
         <About />
         <Experience />
-        <Services />
         <Portfolio />
         <Testimonial />
         <Contact />
