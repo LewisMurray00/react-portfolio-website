@@ -19,7 +19,9 @@
 
 - Next i turned my focus to the About section, it was here that i created cards (which i may refactor as a seperate component) to highlight some key things about me as well as a paragraph and also reusing a button to contact me
 
-video: 2:04
+- I moved onto the portfolio.jsx file next, this involved creating more card components for the project. Initially i hard coded 6 seperate card components, however i realised it would be easier and more efficient to map over an array of data.
+
+video: 2:20
 
 ## Plans for the future
 

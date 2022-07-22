@@ -2,6 +2,52 @@ import React from 'react'
 import './portfolio.css'
 import Img1 from '../../Assests/Project-stock-image.jpg'
 
+const data = [
+  {
+    id: 1,
+    image: Img1,
+    title: 'Project 1',
+    github: 'https://github.com',
+    demo: 'https://github.com'
+  },
+  {
+    id: 2,
+    image: Img1,
+    title: 'Project 2',
+    github: 'https://github.com',
+    demo: 'https://github.com'
+  },
+  {
+    id: 3,
+    image: Img1,
+    title: 'Project 3',
+    github: 'https://github.com',
+    demo: 'https://github.com'
+  },
+  {
+    id: 4,
+    image: Img1,
+    title: 'Project 4',
+    github: 'https://github.com',
+    demo: 'https://github.com'
+  },
+  {
+    id: 5,
+    image: Img1,
+    title: 'Project 5',
+    github: 'https://github.com',
+    demo: 'https://github.com'
+  },
+  {
+    id: 6,
+    image: Img1,
+    title: 'Project 6',
+    github: 'https://github.com',
+    demo: 'https://github.com'
+  },
+]
+
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -10,77 +56,24 @@ const Portfolio = () => {
 
     <div className="container portfolio__container">
       
-      <article className='portfolio__item'>
-          <div className='portfolio__item__image'>
-            {/* Add Images of the project */}
-            <img src={Img1} alt="project-title" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item__cta'>
-          <a href='https://github.com' className='btn' target='_blank'>View On Github</a>
-          <a href='https://github.com' className='btn btn-primary' target='_blank'>Deployed App</a>
-          </div>
-      </article>
+      { 
+        data.map(({id, image, title, github, demo}) =>{
+          return(
+            <article key={id} className='portfolio__item'>
+            <div className='portfolio__item__image'>
+              {/* Add Images of the project */}
+              <img src={image} alt={title} />
+            </div>
+            <h3>{title}</h3>
+            <div className='portfolio__item__cta'>
+              <a href={github} className='btn' target='_blank'>View On Github</a>
+              <a href={demo} className='btn btn-primary' target='_blank'>Deployed App</a>
+            </div>
+            </article>
+          )
+        })
+      }
 
-      <article className='portfolio__item'>
-          <div className='portfolio__item__image'>
-            {/* Add Images of the project */}
-            <img src={Img1} alt="project-title" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item__cta'>
-          <a href='https://github.com' className='btn' target='_blank'>View On Github</a>
-          <a href='https://github.com' className='btn btn-primary' target='_blank'>Deployed App</a>
-          </div>
-      </article>
-
-      <article className='portfolio__item'>
-          <div className='portfolio__item__image'>
-            {/* Add Images of the project */}
-            <img src={Img1} alt="project-title" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item__cta'>
-          <a href='https://github.com' className='btn' target='_blank'>View On Github</a>
-          <a href='https://github.com' className='btn btn-primary' target='_blank'>Deployed App</a>
-          </div>
-      </article>
-
-      <article className='portfolio__item'>
-          <div className='portfolio__item__image'>
-            {/* Add Images of the project */}
-            <img src={Img1} alt="project-title" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item__cta'>
-          <a href='https://github.com' className='btn' target='_blank'>View On Github</a>
-          <a href='https://github.com' className='btn btn-primary' target='_blank'>Deployed App</a>
-          </div>
-      </article>
-
-      <article className='portfolio__item'>
-          <div className='portfolio__item__image'>
-            {/* Add Images of the project */}
-            <img src={Img1} alt="project-title" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item__cta'>
-          <a href='https://github.com' className='btn' target='_blank'>View On Github</a>
-          <a href='https://github.com' className='btn btn-primary' target='_blank'>Deployed App</a>
-          </div>
-      </article>
-
-      <article className='portfolio__item'>
-          <div className='portfolio__item__image'>
-            {/* Add Images of the project */}
-            <img src={Img1} alt="project-title" />
-          </div>
-          <h3>Portfolio Item Title</h3>
-          <div className='portfolio__item__cta'>
-          <a href='https://github.com' className='btn' target='_blank'>View On Github</a>
-          <a href='https://github.com' className='btn btn-primary' target='_blank'>Deployed App</a>
-          </div>
-      </article>
     </div>
 
     </section>
