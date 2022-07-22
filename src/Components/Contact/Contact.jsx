@@ -14,21 +14,21 @@ const Contact = () => {
         
         <div className='contact__options'>
           <article className='contact__option'>
-            <MdOutlineEmail />
+            <MdOutlineEmail className='contact__option__icon'/>
             <h4>Email</h4>
             <h5>lewisdmurray00@gmail.com</h5>
             <a href='mailto:lewisdmurray00@gmail.com' target="_blank">Send a message</a>
           </article>
 
           <article className='contact__option'>
-            <FaInstagram />
+            <FaInstagram className='contact__option__icon'/>
             <h4>Instagram</h4>
             <h5>lewismurrayy</h5>
             <a href='https://www.instagram.com' target="_blank">Follow Me</a>
           </article>
 
           <article className='contact__option'>
-            <BsWhatsapp />
+            <BsWhatsapp className='contact__option__icon'/>
             <h4>Whatsapp</h4>
             <h5>+447577380000</h5>
             <a href='https://api.whatsapp.com/send?phone=+447577380000' target="_blank">Send a message</a>
