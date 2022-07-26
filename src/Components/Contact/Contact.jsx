@@ -9,6 +9,7 @@ const Contact = () => {
 
   const form = useRef();
 
+  //Using EmailJS
   const sendEmail = (e) => {
     e.preventDefault();
 
