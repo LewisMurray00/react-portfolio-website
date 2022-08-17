@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <a href="#"
+      <a href="!#"
       onClick={()=> setActiveNav('#')}
       className={activeNav === '#' ? 'active' : ''}>
        <AiOutlineHome /> 
